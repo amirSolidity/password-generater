@@ -1,0 +1,66 @@
+body,html{
+    background-color: #282828;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 10rem;
+    width: 30%;
+    height: 580px;
+    border: 1px solid #282828;
+    border-radius: 10px;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+} 
+.headName{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 3rem;
+}
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.checkListDiv{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.labels{
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+    width: 200px;
+    padding-left: 0.5rem;
+}
+.btnDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.generateBtn{
+    width: 55%;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.lenghtInputDiv{
+    margin-bottom: 0;
+}
+.lenghtInputLabel{
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+    width: 200px;
+    padding-left: 0.5rem;
+}
