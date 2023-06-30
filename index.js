@@ -60,10 +60,9 @@ const checked = ()=> {
   passwordArr.length = inputLength
 
   let input = document.getElementById('inputPass')
-  let resultPassword = passwordArr.toString()
+  let resultPassword = passwordArr.join("")
   resultPassword
-  input.value = resultPassword 
-  input.innerText.replace(/,/g , '')                                                                       
+  input.value = resultPassword                                                                   
 }
 
 
